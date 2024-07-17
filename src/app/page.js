@@ -15,6 +15,9 @@ export default function Home() {
       function handleNavigate (){
         router.push('products')
       }
+      function handleNavigate2 (){
+        router.push('quotes')
+      }
 
 
   return (
@@ -26,6 +29,10 @@ export default function Home() {
 
       <h2 className="font-bold mt-3 text-lg">Alternative way of navigating using useRouter</h2>
       <button onClick={handleNavigate}>Naviga con UseRouter</button>
+    
+      <h2 className="font-bold mt-3 text-lg">Un po di frasi random</h2>
+      <button onClick={handleNavigate2}>Naviga con UseRouter</button>
+    
     </main>
   );
 }
