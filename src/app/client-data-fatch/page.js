@@ -29,6 +29,7 @@ export default function ClientSideDataFetch(){
         useEffect(()=>{
             fetchListOfUser()
         },[])
+        
     if(loading) return <h3 className="font-bold">loading</h3>
 
     return <div>
