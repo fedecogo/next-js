@@ -38,7 +38,7 @@ export default function ClientSideDataFetch(){
 
 
     if(error){
-        return <h1>{error}</h1>
+        return <h1>error</h1>
 
     }
     if(isLoading) return <h3 className="font-bold">loading</h3>
